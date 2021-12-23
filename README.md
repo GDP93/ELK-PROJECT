@@ -303,6 +303,24 @@ SSH into the control node and follow the steps below:
   - output.elasticsearch: 
   - output.kibana: 
 
+- **Filebeats-config**
+![Alt text here](https://github.com/GDP93/ELK-PROJECT/blob/main/Images/Elastic%20Search%20output%20Filebeat.JPG)
+
+![Alt text here](https://github.com/GDP93/ELK-PROJECT/blob/main/Images/Kibana%20filebeat.JPG)
+    
+- **Metricbeats-config**
+![Alt text here](https://github.com/GDP93/ELK-PROJECT/blob/main/Images/elastic%20search%20metricbeats.JPG)
+
+![Alt text here](https://github.com/GDP93/ELK-PROJECT/blob/main/Images/Kibana%20metricbeat.JPG)
+
+  
+- Run the filebeats playbook, and navigate to Kibana, under "add data logs/System_logs" to check that the installation worked as expected.
+![Alt text here](https://i.imgur.com/qzFs0Ee.jpeg) 
+
+- Run the metricbeats playbook, and navigate to Kibana under "add metric data/Docker" to check that the installation worked as expected.
+![Alt text here](https://i.imgur.com/qzFs0Ee.jpeg)
+
+
 _TODO: Answer the following questions to fill in the blanks:_
 - filebeat-playbook.yml
 - metricbeat-playbook.yml
