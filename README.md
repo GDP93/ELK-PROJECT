@@ -10,7 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 <details>
   <summary>Ansible ELK Server Installation Playbook</summary>
   
-<pre><code>---
+<pre><code>---\
 - name: Configure ELK
   hosts: ELK
   remote_user: sysadmin
@@ -64,7 +64,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   <summary>DVWA Install File</summary>
   
   <pre><code>
-  ---
+  ---\
 - name: Config Web VM with Docker
   hosts: webservers
   become: true
@@ -105,7 +105,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 <details>
   <summary>Filebeats Playbook</summary>
   
-  <pre><code>---
+  <pre><code>---\
 - name: Installing and Launch Filebeat
   hosts: webservers
   become: yes
@@ -148,7 +148,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 <details>
   <summary>Metricbeats Playbook</summary>
   
-  <pre><code>---
+  <pre><code>---\
 - name: Install metric beat
   hosts: webservers
   become: true
