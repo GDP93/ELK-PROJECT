@@ -204,7 +204,7 @@ Load balancing ensures that the application will be highly available, in additio
 - Load Balancing contributes to the Availability aspect of security in regards to the CIA Triad.
 - The advantage of a jump box is to give access to the user from a single node that can be secured and monitored as it is the origination point for launching Administrative Tasks.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 - What does Filebeat watch for? Filebeat watches for any information in the file system which has been changed and when it has.
 - What does Metricbeat record? Metricbeat records metric and statistical data from the operating system and from services running on the server and ships them to the output you specify.
 
